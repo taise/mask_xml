@@ -1,0 +1,2 @@
+replace_tags:
+  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/", "title"]
