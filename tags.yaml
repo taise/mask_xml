@@ -1,2 +1,3 @@
-replace_tags:
-  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/", "title"]
+mask_tags:
+  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/", "title", "******"]
+  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/date/", "date", "yyyy-mm-dd"]
