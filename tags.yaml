@@ -1,3 +1,21 @@
+# mask_mode
+#
+#  Replace mode when there is no replacement string in the mask_tag
+#    - all_symbols => Replace the "*" character minute (default)
+#    - skip_char   => Replace with a skip character
+
+#mask_mode: skip_char
+mask_mode: all_symbols
+
+
+# maks_tags
+#
+# Specifies the tag that masking using Array
+#   Array[0] : parent xPath
+#   Array[1] : masking tag
+#   (Array[2]: replacement string)
+
 mask_tags:
-  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/", "title", "******"]
-  - ["/MD_Metadata/identificationInfo/MD_DataIdentification/citation/date/", "date", "yyyy-mm-dd"]
+  - ["/sample/header/", "title", "******"]
+  - ["/sample/header/", "date", "yyyy-mm-dd"]
+  - ["/sample/pointOfContact/contactInfo/", "email"]
