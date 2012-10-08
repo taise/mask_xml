@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sample>
+  <header>
+    <title>Mask XML sample data</title>
+    <date>2012-10-08</date>
+  </header>
+  <abstract>This xml file is sample data. $ ruby mask_xml.rb </abstract>
+  <purpose>Testing mask_xml.rb</purpose>
+  <status>001</status>
+  <pointOfContact>
+    <name>taise</name>
+    <contactInfo>
+      <email>taise515@gmail.com</email>
+      <phone>
+        <voice>99-9999-9999</voice>
+        <facsimile>99-9999-9990</facsimile>
+      </phone>
+    </contactInfo>
+  </pointOfContact>
+</sample>
