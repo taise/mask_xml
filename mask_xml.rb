@@ -85,7 +85,8 @@ class MaskXml
   end
 
   def xml_file_output
-    f = open("masked_#{@xml_file}", "w")
+    masked_xml_file = @xml_file.sub(/.xml$/, ".masked.xml")
+    f = open(masked_xml_file, "w")
     f.print @doc
   end
 
